@@ -465,15 +465,15 @@ nnoremap <S-Right> <C-W><Right>
 " easy buffer navigation
 " NOTE: if we already map to EXbn,EXbp. skip setting this
 if !hasmapto(':EXbn<CR>') && mapcheck('<C-l>','n') == ''
-    nnoremap <C-l> :bn<CR>
+"    nnoremap <C-l> :bn<CR>
 endif
 if !hasmapto(':EXbp<CR>') && mapcheck('<C-h>','n') == ''
-    noremap <C-h> :bp<CR>
+"    noremap <C-h> :bp<CR>
 endif
 
 " easy diff goto
-noremap <C-k> [c
-noremap <C-j> ]c
+"noremap <C-k> [c
+"noremap <C-j> ]c
 
 " enhance '<' '>' , do not need to reselect the block after shift it.
 vnoremap < <gv
