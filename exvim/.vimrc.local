@@ -1,2 +1,15 @@
 " This file will be loaded at the end of .vimrc.
 " This file is designed to add your own vim scripts or override the exVim's .vimrc settings.
+
+set fileformats=unix,dos
+
+" tab
+set expandtab                   " expand tabs to spaces
+set smarttab
+set shiftround
+
+" indent
+set autoindent smartindent shiftround
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4                " insert mode tab and backspace use 4 spaces
